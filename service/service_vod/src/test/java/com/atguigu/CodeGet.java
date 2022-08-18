@@ -54,7 +54,7 @@ public class CodeGet {
         StrategyConfig strategy = new StrategyConfig();
 
         //数据库表的名字
-        strategy.setInclude("teacher");
+        strategy.setInclude("subject");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 
